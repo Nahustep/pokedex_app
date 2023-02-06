@@ -1,0 +1,54 @@
+name: pokedex
+description: A new Flutter project.
+
+publish_to: 'none' 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  dartz: ^0.10.1
+  equatable: ^2.0.3 
+  get_storage: ^2.0.3
+  quiver: ^3.2.1
+
+  pokedex_api:
+    path: pokedex-api
+  pokedex_material:
+    path: pokedex_material
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: Montserrat-Regular
+      fonts:
+        - asset: lib/assets/fonts/Montserrat-Regular.ttf
+    - family: Montserrat-Light
+      fonts:
+        - asset: lib/assets/fonts/Montserrat-Light.ttf
+    - family: Montserrat-Medium
+      fonts:
+        - asset: lib/assets/fonts/Montserrat-Medium.ttf
+    - family: Montserrat-Bold
+      fonts:
+        - asset: lib/assets/fonts/Montserrat-Bold.ttf
+    - family: Montserrat-SemiBold
+      fonts:
+        - asset: lib/assets/fonts/Montserrat-SemiBold.ttf
+    - family: Heebo-Black
+      fonts:
+        - asset: lib/assets/fonts/Heebo-Black.ttf
+    - family: Heebo-Bold
+      fonts:
+        - asset: lib/assets/fonts/Heebo-Bold.ttf
